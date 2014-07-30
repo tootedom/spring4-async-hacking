@@ -8,7 +8,7 @@ buildscript {
 }
 apply plugin: 'java'
 apply plugin: 'release'
-createReleaseTag.dependsOn uploadArchives
+createReleaseTag.dependsOn publish
 
 group = 'org.greencheek'
 

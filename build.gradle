@@ -10,7 +10,7 @@ buildscript {
 }
 apply plugin: 'java'
 apply plugin: 'release'
-createReleaseTag.dependsOn allprojects.uploadArchives
+preTagCommit.dependsOn allprojects.uploadArchives
 
 description = """Spring MVC servlet 4"""
 

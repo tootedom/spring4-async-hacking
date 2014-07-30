@@ -1,4 +1,13 @@
+buildscript {
+   repositories {
+      maven { url "https://oss.sonatype.org/content/groups/public"}
+   }
+   dependencies {
+      classpath 'com.github.townsfolk:gradle-release:1.2'
+   }
+}
 apply plugin: 'java'
+apply plugin: 'release'
 
 group = 'org.greencheek'
 version = '1.0-SNAPSHOT'

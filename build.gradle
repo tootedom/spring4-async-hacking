@@ -13,7 +13,7 @@ apply plugin: 'java'
 apply plugin: 'release'
 
 createReleaseTag.dependsOn uploadArchives
-createReleaseTag.doLast uploadArchives
+createReleaseTag doLast uploadArchives
 
 group = 'org.greencheek'
 

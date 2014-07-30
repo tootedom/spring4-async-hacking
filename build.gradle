@@ -1,6 +1,9 @@
 group = 'org.greencheek'
 // see : https://github.com/townsfolk/gradle-release
 buildscript {
+   repositories {
+      maven { url "http://localhost:8081/artifactory/libs-release"}
+   }
    dependencies {
       classpath 'com.github.townsfolk:gradle-release:1.2'
    }

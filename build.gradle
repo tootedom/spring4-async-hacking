@@ -10,7 +10,6 @@ apply plugin: 'java'
 apply plugin: 'release'
 
 group = 'org.greencheek'
-version = '1.0-SNAPSHOT'
 
 description = """Spring MVC servlet 4"""
 

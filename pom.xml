@@ -69,4 +69,17 @@
             </plugin>
         </plugins>
     </build>
+      <distributionManagement>
+        <repository>
+          <id>internal</id>
+          <name>localhost.localdomain-releases</name>
+          <url>${release.repo.url}</url>
+        </repository>
+        <snapshotRepository>
+          <id>snapshot</id>
+          <name>localhost.localdomain-snapshots</name>
+          <url>${snapshots.repo.url}</url>
+        </snapshotRepository>
+
+      </distributionManagement>
 </project>

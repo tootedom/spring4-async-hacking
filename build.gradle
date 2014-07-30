@@ -1,9 +1,6 @@
 group = 'org.greencheek'
 // see : https://github.com/townsfolk/gradle-release
 buildscript {
-   repositories {
-      maven { url "https://oss.sonatype.org/content/groups/public"}
-   }
    dependencies {
       classpath 'com.github.townsfolk:gradle-release:1.2'
    }

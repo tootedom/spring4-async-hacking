@@ -12,8 +12,10 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'release'
 
-createReleaseTag.dependsOn publish
+
 updateVersion.dependsOn publish
+
+
 group = 'org.greencheek'
 
 description = """Spring MVC servlet 4"""
